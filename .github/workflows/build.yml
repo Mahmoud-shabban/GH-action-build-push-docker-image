@@ -32,4 +32,4 @@ jobs:
         file: ./python-helloworld/Dockerfile
         platforms: linux/amd64
         push: true
-        tags: ${{secrets.REPO_NAME}}/python-helloworld:latest
+        tags: {{coralsparrow/github-actions}}:latest
