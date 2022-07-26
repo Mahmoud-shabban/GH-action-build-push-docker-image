@@ -32,4 +32,4 @@ jobs:
         file: ./python-helloworld/Dockerfile
         platforms: linux/amd64
         push: true
-        tags: {{coralsparrow}}/github-actions:latest
+        tags: coralsparrow/github-actions:latest
